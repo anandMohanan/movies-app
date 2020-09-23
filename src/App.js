@@ -1,7 +1,8 @@
 import React from 'react';
 
 import Header from './components/header/header';
-import Form from './components/form/form';
+import Main from './components/main/main';
+
 
 import { GlobalStyle } from './global-styles';
 
@@ -10,7 +11,8 @@ const App = () => {
     <>
     <GlobalStyle />
     <Header />
-    <Form />
+    <Main />
+
     </>
   );
 }
